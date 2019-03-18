@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="de.schwedenmut.mobileinformationstudy.MainActivity">
+    <item android:id="@+id/action_export"
+          android:title="@string/action_export"
+          android:icon="@drawable/ic_action_export"
+          android:orderInCategory="100"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_information"
+          android:title="Information"
+          android:icon="@android:drawable/ic_menu_info_details"
+          app:showAsAction="ifRoom" />
+</menu>

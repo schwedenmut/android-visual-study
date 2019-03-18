@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="indicator_unselected">#A9A9A9</color>
+
+    <color name="lightskyblue">#87CEFA</color>
+    <color name="teal50_200">#80CBC4</color>
+    <color name="mediumaquamarine">#66CDAA</color>
+    <color name="cyan50_700">#0097A7</color>
+    <color name="bluegray50_400">#78909C</color>
+    <color name="ic_launcher_background">#26A69A</color>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Authorization">
+        <Preference
+                android:key="notification_status"
+                android:title="Notification Status"
+                android:summary="Unbekannt" />
+        <Preference
+                android:key="screencapture_status"
+                android:title="Screencapture Status"
+                android:summary="Unbekannt" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Statistics">
+        <Preference
+                android:key="notification_entries"
+                android:title="Notifications logged"
+                android:summary="0"
+                android:enabled="false" />
+        <Preference
+                android:key="screencapture_entries"
+                android:title="Screencaptures logged"
+                android:summary="0"
+                android:enabled="false" />
+
+        <Preference
+                android:key="pref_version"
+                android:title="Version"
+                android:summary="0"
+                android:enabled="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
